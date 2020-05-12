@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Pok'eFarm(MainMenu).unity
+    guid: c859ecd4fc48450449f9bd1061fb11e1
+  - enabled: 1
+    path: Assets/Scenes/GenderChoice.unity
+    guid: b83f3660bf9740448a73e4091060ea6a
+  - enabled: 0
+    path: Assets/Scenes/CatChoice.unity
+    guid: f76387f09e1922b4d9efac047ea8d91c
+  - enabled: 0
+    path: Assets/Scenes/DogChoice.unity
+    guid: 2737fc29e3ead594faed3fe98d735e60
+  - enabled: 0
+    path: Assets/Scenes/Pok'efarm(Outside)(Male).unity
+    guid: 57eb5f1259485774e9600593e5dc64c5
+  - enabled: 0
+    path: Assets/Scenes/Pok'efarm(Outside)(Female).unity
+    guid: da8679e6a1e00694c913928933cb0215
+  m_configObjects: {}
