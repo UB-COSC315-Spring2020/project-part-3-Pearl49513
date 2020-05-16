@@ -1,29 +1,175 @@
-# Start_Unity_Github_Project
-Use this template to start a Unity3D project using Git and Github. 
+#Project Movement-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The goal of this repository is to make it easy to get started with source control in Unity.  
+##Assets-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The article in the link below explains why git is difficult, but not impossible, to use with unity with git and how you can setup your project to be a bit more "git" friendly [How to Git with Unity](https://thoughtbot.com/blog/how-to-git-with-unity)
+####Player-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The following directions assume that you have github desktop [[Download Here]](https://desktop.github.com/) and git-lfs[[Download Here]](https://git-lfs.github.com/) already installed on your computer, as well as having a github account.  I will also assume that if you are familar with git/github and use either the command line or a GUI other that github desktop you should be okay without step by step instructions.
+*Spriter2*
 
-Once you are ready:
+![Character Sprites](https://i.pinimg.com/564x/fe/74/f3/fe74f323114c04bc5d66cf8090cbbac3.jpg)
 
-1. Click the "Use this template" button on this page. This will create a new repository in your account
-2. Give This repository a name related to your game
-3. Click "Create repository from template"
-4. Click "Clone or Download"
-5. Click "Open in Desktop".  This will open the Github Desktop application
-6. Select a folder on your system and Click "Clone"
-7. Open the new folder with this README.md in your file manager
-8. Copy your existing Unity project folder into this folder
-9. Go back to Github Desktop and create a commit message, then Click "Commit"
-10. Once the commit is complete Click "Push"
+s159.photobucket.com
 
-If your Library folder is not being ignored open your command line tool in your this folder and run:
+####Environment-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-`git rm -r --cached Library`
+*TcYaneb*
 
-then
+![Tileset1](http://i.imgur.com/TcYaneb.png)
 
-`git commit -m "Removed Library Folder from repository"`
+https://imgur.com/TcYaneb
+
+##Coding-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+####Learning Topdown Movement-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*CouchFerret makes games*
+
+**Unity Top Down Character Controller with Animation and Movement - Tutorial**
+https://www.youtube.com/watch?v=yfsqai3ivyA
+
+**Unity Top Down Character Movement and Animation with Blend Tree - Tutorial**
+https://www.youtube.com/watch?v=32VXj5BB7wU
+
+*Brackeys*
+
+**TOP DOWN MOVEMENT in Unity!**
+https://www.youtube.com/watch?v=whzomFgjT50
+
+*inScope Studios*
+
+**#1.0 Unity RPG Tutorial - Player movement**
+https://www.youtube.com/watch?v=1WG791jyZ6M
+
+**#1.1 Unity RPG Tutorial - Character script**
+https://www.youtube.com/watch?v=GjTTqz39kLY
+
+**#1.2 Unity RPG Tutorial - Player idle**
+https://www.youtube.com/watch?v=OoutYKyb4g0
+
+**#1.3 Unity RPG Tutorial - Walk animations**
+https://www.youtube.com/watch?v=aOqQuD_1ylA
+
+##Animation-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+####Learning the Sprite Editor-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Gary Thomas*
+
+**Unity part 1 - Importing sprites & using the sprite editor**
+https://www.youtube.com/watch?v=6P1ivCvofuk
+
+
+####Learning Animation/Animator-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Gary Thomas*
+
+**Unity part 2 - Creating animations with sprites**
+https://www.youtube.com/watch?v=PuXUCX21jJU
+
+**Unity part 3 - Using the Animator window to create transitions between our animations**
+https://www.youtube.com/watch?v=mTxmR5zuY7A
+
+**Unity part 4 - implementation of C# code and making adjustments to our Animator transistions**
+https://www.youtube.com/watch?v=Sqt8cr0KVLc
+
+##Tilesets-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+####Learning Tilesets-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Brackeys*
+
+**TILEMAPS in Unity**
+https://www.youtube.com/watch?v=ryISV_nH8qw
+
+##Camera Movement-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+###How to do a 2D Top Down Camera-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Chris' Tutorials*
+
+**Basic Camera Script for Top Down 2D Games | Free Download | Unity 5 Tutorial for Beginners**
+https://www.youtube.com/watch?v=s4Yex7oliwQ
+
+
+#Final Project-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##Assets
+
+####Fonts used
+*Textcraft*
+https://textcraft.net/style/Textcraft/pokemon
+
+##Coding
+####Start Menu
+*Brackeys*
+**START MENU in Unity**
+https://www.youtube.com/watch?v=zc8ac_qUXQY
+
+####Loading Bar
+*Brackeys*
+**How to make a LOADING BAR in Unity**
+https://www.youtube.com/watch?v=YMj2qPq9CP8
+
+####Settings Menu
+*Brackeys*
+**SETTINGS MENU in Unity**
+https://www.youtube.com/watch?v=YOaYQrN1oYQ
+
+####Pause Menu
+*Brackeys*
+**PAUSE MENU in Unity**
+https://www.youtube.com/watch?v=JivuXdrIHK0
+
+####Full Screen
+**Unity 3D Documentation*
+**Screen.fullScreen**
+https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html
+
+####Screen Resolution
+**Unity 3D Documentation*
+**Screen.SetResolution**
+https://docs.unity3d.com/ScriptReference/Screen.SetResolution.html
+
+####Timer
+*OrbitalCoding*
+**Unity Tutorial C# Ingame Clock**
+https://www.youtube.com/watch?v=37K-aKszGlc
+
+*Coding With Andrew*
+**C#: How To Create A Clock With Custom Time**
+https://www.youtube.com/watch?v=Z0sEpAl6JW4
+
+####Inventory
+*Scripting is Fun*
+
+**Unity 2D Game Basics - Setting up Interactable Objects - Picking up Objects**
+https://www.youtube.com/watch?v=gGUtoy4Knnw
+
+**Unity 2D Game Basics - Adding an Item to Inventory**
+https://www.youtube.com/watch?v=VwE-Oo8Sn9A
+
+**Unity 2D Game Basics - Adding Inventory UI**
+https://www.youtube.com/watch?v=1w4Iw0Klnh4
+
+
+*Coding with Unity*
+
+**Unity3D - Scriptable Object Inventory System | Part 1**
+https://www.youtube.com/watch?v=_IqTeruf3-s
+
+##Tilesets
+
+####Inventory Slots
+
+*The Sprite Resource*
+
+**Inventory Icons, Backgrounds,  and Items**
+https://www.spriters-resource.com/ds_dsi/pokemonheartgoldsoulsilver/sheet/28036/
+
+https://www.spriters-resource.com/ds_dsi/pokemondiamondpearl/sheet/31929/
+
+https://www.spriters-resource.com/ds_dsi/pokemonplatinum/sheet/23525/
+
+https://www.spriters-resource.com/ds_dsi/pokemonblack2white2/sheet/48188/
+
+https://www.deviantart.com/zetavares852/art/Building-sheet-3-171172865
